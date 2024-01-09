@@ -1,0 +1,219 @@
+.main
+{
+    height: 100vh;
+    box-sizing: border-box;
+    
+   
+}
+
+/* .body-content
+{
+    background: #ffcece;
+    color: #0b0303;
+    
+} */
+
+.sidebar
+{
+    background: #545454;
+    color: #dfdede;
+    border-radius: 2px;
+   
+}
+
+.sidebar ul
+{
+    list-style: none;
+    padding: 0px;
+    border-radius: 2px;
+}
+
+.sidebar ul li
+{
+    padding: 10px;
+   
+}
+
+.sidebar a
+{
+    color: #fff3f3;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+
+.sidebar a:hover
+{
+    background: #fff3f3;
+    color: #0b0303;
+}
+
+.active
+{
+    background: #9b8383;
+    border-right: solid 8px rgb(115, 239, 44);
+   
+}
+
+.card-data book
+{
+    
+   
+    color: #fbf6f6;
+    padding: 10px 50px;
+    border:solid 1px;
+    box-shadow: 0px 0px 10px 0px #0b0303;
+    border-radius: 5px;
+}
+
+.card-data.book{
+    background-color: rgb(26, 69, 69);
+    color: #fbf6f6;
+    padding: 10px 50px;
+    border:solid 1px;
+    box-shadow: 0px 0px 10px 0px #0b0303;
+    border-radius: 5px;
+}
+
+.card-data.category{
+    background-color: olivedrab;
+    color: #fbf6f6;
+    padding: 10px 50px;
+    border:solid 1px;
+    box-shadow: 0px 0px 10px 0px #0b0303;
+    border-radius: 5px;
+}
+
+.card-data.user{
+    background-color: rgb(26, 20, 67);
+    color: #fbf6f6;
+    padding: 10px 50px;
+    border:solid 1px;
+    box-shadow: 0px 0px 10px 0px #0b0303;
+    border-radius: 5px;
+}
+.card-data
+{
+   font-size: 40px;
+}
+
+.card-desc
+{
+    font-size: 20px;
+}
+
+.card-count
+{
+    font-size: 20px;
+}
+
+.custom-badge {
+    background-color: rgb(138, 251, 9);
+    color: rgb(0, 0, 0);
+}
+
+.dark-mode {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+.mode-toggle {
+    border: whitesmoke;
+    outline: black;
+    background: black;
+    cursor: pointer;
+}
+
+/* Add border to the table */
+.table {
+     border-radius:2px  #160000  ; /* Change the color as needed */
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+/* Add border to table header */
+.table th {
+    border: 2px solid #060000; /* Change the color as needed */
+}
+
+/* Add border to table cells */
+.table td {
+    border: 2px solid #130606; /* Change the color as needed */
+}
+
+/* Color the table header */
+.table thead th {
+    background-color: #69f69f; /* Change the color as needed */
+}
+
+/* Color the table rows */
+.table tbody tr {
+    background-color: #ffffff; /* Change the color as needed */
+}
+
+/* Color the alternating rows */
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Change the color as needed */
+}
+
+/* Style for the canvas element containing the chart */
+#statisticsChart {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the chart */
+    border-radius: 8px; /* Add rounded corners for a modern look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Optional: Add a background color for the chart container */
+.chart-container {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Add some padding for aesthetics */
+    border-radius: 20px; /* Add rounded corners for the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.pagination .page-link {
+    font-size: 14px; /* Adjust the font size as needed */
+    padding: 10px 20px; /* Add some padding */
+    border-radius: 0 !important; /* Remove the default rounded corners */
+    margin: 0 5px; /* Increase the spacing between each link */
+
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
